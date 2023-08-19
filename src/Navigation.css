@@ -4,20 +4,21 @@
     margin: 0;
     padding: 0;
 }
-.navbar{
-    margin: 0;
-    padding: 0;
-    float: right;
+
+.nav ul{
+    margin: -10px 0px 5px 0px;
+    padding: 20px 10px;
+    /* float: right; */
+    text-align: center;
 }
-.navbar li{
-    text-decoration: none;
-    text-align: justify;
-    /* list-style-type: none;
-    display: inline-block; */
-    padding: 0 5px;
-    margin: 5px 0;
+a{
+    margin: 10px;
     font-size: 20px;
-    font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: red;
+    color: black;
 }
